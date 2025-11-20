@@ -1,0 +1,117 @@
+body {
+    font-family: 'Happy Monkey', sans-serif;
+    text-align: center;
+    background: linear-gradient(#9bc1bc, #c09baa);
+    color: #f4f1bb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 5px black;}
+
+#bday-head {
+    font-size: 50px;
+    margin: 30px 0px 0px 0px;
+}
+
+#bday-desc {
+    margin: 10px 0px 20px 0px;
+}
+
+#bday-age {
+    background-color: #ed6a5a;    
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+#bday-date {
+    background-color: #ed6a5a;    
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* now for main-vertical axis */
+    justify-content: start; /* now for cross-horizontal axis */
+}
+
+#main-img {
+    display: block;
+    margin: 0 0 10px 0; /* top-right-bottom-left */
+    width: 200px;
+    height: 200px;
+    border: 8px solid #ed6a5a;
+    border-radius: 30%;
+    transition: width 0.6s ease-in-out, height 0.6s ease-in-out;
+}
+
+#main-img:hover {
+    width: 220px;
+    height: 220px;
+}
+
+
+.gift-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-title {
+    margin-bottom: 5px;
+}
+
+.gift-hint {
+    margin: 5px 0 10px 0;
+}
+
+.gift-img {
+    width: 400px;
+    aspect-ratio: 1/1;
+    border: 8px solid whitesmoke;
+    border-radius: 5%;
+    background-image: url(images/gift2.png);
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/heart.gif");
+}
+
+#gift-img-sweat:hover {
+    background-image: url("images/kaynpeele.gif");
+}
+
+#gift-img-epik:hover {
+    background-image: url("images/cat.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/grimm.jpeg");
+}
+
+#gift-img-cheers {
+    width: 400px;
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.jpeg");
+}
+
+#footer {
+    font-style: italic;
+    margin: 50px 0 20px 0;
+    width: 400px;
+}
+
+a {
+    color: #f4f1bb;
+}
